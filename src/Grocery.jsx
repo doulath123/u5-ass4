@@ -3,7 +3,7 @@ import {GroceryInput} from "./GroceryInput.jsx"
 
 import { GroceryList } from "./GroceryList.jsx"
 export const Grocery=()=>{
-    const [grocerys, setGrocerys]=useState(["doulath", "basha"]);
+    const [grocerys, setGrocerys]=useState([]);
     const addGrocery=(data)=>{
         setGrocerys([...grocerys,data])
     }
